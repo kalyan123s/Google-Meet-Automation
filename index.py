@@ -52,7 +52,7 @@ def sign_in():
     # Danger! To find password_box use X_path not full x_path since its varrying with time that i dont know why?
     password_box = browser.find_element(By.XPATH,"//*[@id='password']/div[1]/div/div[1]/input")
     password_box.click()  # Click on the password field before typing
-    pyautogui.write('alkjd0101')
+    pyautogui.write('')
 
 
     
